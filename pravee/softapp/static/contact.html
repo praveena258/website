@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us - The Dandelion Cafe</title>
+    <style>
+        body {
+            background-image: url('lavenderbg.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: white;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        .nav-list {
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 15px;
+        }
+
+        .nav-list a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .nav-list a:hover {
+            text-decoration: underline;
+        }
+
+        h1 {
+            font-size: 40px;
+            margin-top: 30px;
+            color: rgb(47, 4, 75);
+        }
+
+        .contact-box {
+            background-color: rgba(216, 184, 251, 0.85);
+            color: #000;
+            width: 80%;
+            max-width: 600px;
+            margin: 40px auto;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            text-align: left;
+        }
+
+        .contact-box h2 {
+            color: #02072a;
+            font-size: 28px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .contact-box label {
+            display: block;
+            margin: 10px 0 5px;
+            font-weight: bold;
+        }
+
+        .contact-box input,
+        .contact-box textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            font-size: 16px;
+            box-sizing: border-box;
+        }
+
+        .contact-box button {
+            margin-top: 20px;
+            background-color: #6f16c3;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        .contact-box button:hover {
+            background-color: #0097a7;
+        }
+        .para{
+            color: #1b002e;
+            align-content: flex-end;
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav-list">
+        <a href="new.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="#">Contact</a>
+        <a href="administrator.html">Administration</a>
+    </nav>
+
+    <h1>Contact Us</h1>
+
+    <div class="contact-box">
+        <h2>Get in Touch</h2>
+        <form>
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+    <p class="para">
+        For more details, contact:+91 8834924500
+    </p>
+</body>
+</html>

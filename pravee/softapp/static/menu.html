@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Menu - Tasty Treasures</title>
+    <style>
+        body {
+            background-image: url('lavenderbg.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #fff;
+        }
+        .nav-list {
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 15px;
+        }
+
+        .nav-list a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .nav-list a:hover {
+            text-decoration: underline;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 48px;
+            color: #370245;
+        }
+
+        .menu-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            padding: 40px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .menu-card {
+            background-color: rgba(84, 8, 112, 0.303);
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s ease;
+        }
+
+        .menu-card:hover {
+            transform: scale(1.03);
+        }
+
+        .menu-card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        .menu-content {
+            padding: 15px 20px;
+            text-align: center;
+        }
+
+        .menu-name {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #370245;
+        }
+
+        .menu-price {
+            font-size: 18px;
+            color: #1c022e;
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav-list">
+        <a href="new.html">Home</a>
+        <a href="#">Menu</a>
+        <a href="contact.html">Contact</a>
+        <a href="administrator.html">Administration</a>
+    </nav>
+    <h1>Our Menu</h1>
+    <div class="menu-grid">
+        <div class="menu-card">
+            <img src="tacos.jpg">
+            <div class="menu-content">
+                <div class="menu-name">TACOS</div>
+                <div class="menu-price">$5.99</div>
+            </div>
+        </div>
+
+        <div class="menu-card">
+            <img src="prawn.jpg">
+            <div class="menu-content">
+                <div class="menu-name">PRAWN</div>
+                <div class="menu-price">$3.49</div>
+            </div>
+        </div>
+
+        <div class="menu-card">
+            <img src="spaghetti.jpg" alt="Butter Chicken">
+            <div class="menu-content">
+                <div class="menu-name">SPAGHETTI</div>
+                <div class="menu-price">$10.99</div>
+            </div>
+        </div>
+
+        <div class="menu-card">
+            <img src="lasagna.jpg">
+            <div class="menu-content">
+                <div class="menu-name">LASAGNA</div>
+                <div class="menu-price">$9.99</div>
+            </div>
+        </div>
+
+        <div class="menu-card">
+            <img src="gourmetbeefslider.jpg" alt="Gulab Jamun">
+            <div class="menu-content">
+                <div class="menu-name">gourmet beef slider</div>
+                <div class="menu-price">$3.99</div>
+            </div>
+        </div>
+
+        <div class="menu-card">
+            <img src="dumpling.jpg" alt="Ice Cream">
+            <div class="menu-content">
+                <div class="menu-name">DUMPLING</div>
+                <div class="menu-price">$4.50</div>
+            </div>
+        </div>
+
+        <div class="menu-card">
+            <img src="pancake.jpeg" alt="Masala Chai">
+            <div class="menu-content">
+                <div class="menu-name">PANCAKE</div>
+                <div class="menu-price">$2.99</div>
+            </div>
+        </div>
+
+        <div class="menu-card">
+            <img src="tiramisu.jpg" alt="Fresh Lime Soda">
+            <div class="menu-content">
+                <div class="menu-name">TIRAMISU</div>
+                <div class="menu-price">$3.49</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

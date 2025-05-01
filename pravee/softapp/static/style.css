@@ -1,0 +1,16 @@
+table{
+    width:80%;
+    height:300px;
+    border:10px solid black;
+    border-collapse:collapse;
+    margin:auto;
+    background-image:url(hi.jpg) ;
+}
+th,td{
+    border:5px solid red;
+    padding:30px;
+    text-align:center;
+}
+th{
+    background-color: #ccc;
+}

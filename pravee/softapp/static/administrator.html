@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin - Tasty Treasures Chefs</title>
+    <style>
+        body {
+            background-image: url('lavenderbg.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #fff;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 42px;
+            color: #16032d;
+        }
+
+        .chef-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            padding: 40px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .chef-card {
+            background-color: rgba(84, 8, 112, 0.303);
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .chef-card:hover {
+            transform: scale(1.03);
+        }
+
+        .chef-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            size: cover;
+        }
+
+        .chef-content {
+            padding: 20px;
+        }
+
+        .chef-name {
+            font-size: 22px;
+            font-weight: bold;
+            color: #370245;
+        }
+
+        .chef-role {
+            font-size: 16px;
+            color: #08000c;
+            margin-top: 5px;
+        }
+        .nav-list {
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 15px;
+        }
+
+        .nav-list a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .nav-list a:hover {
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body>
+    <nav class="nav-list">
+        <a href="new.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="contact.html">Contact</a>
+        <a href="#">Administration</a>
+    </nav>
+    <h1>Our Master Chefs</h1>
+    <div class="chef-grid">
+        <div class="chef-card">
+            <img src="chef 1.jpg">
+            <div class="chef-content">
+                <div class="chef-name">Ram Singh</div>
+                <div class="chef-role">Head Chef – Indian Cuisine</div>
+            </div>
+        </div>
+
+        <div class="chef-card">
+            <img src="cheff.jpg" alt="Chef Marco Rossi">
+            <div class="chef-content">
+                <div class="chef-name">Rosie</div>
+                <div class="chef-role">Sous Chef – Continental</div>
+            </div>
+        </div>
+
+        <div class="chef-card">
+            <img src="chef 3.jpeg" alt="Chef Priya Menon">
+            <div class="chef-content">
+                <div class="chef-name">Priya Menon</div>
+                <div class="chef-role">Pastry & Dessert Chef</div>
+            </div>
+        </div>
+
+        <div class="chef-card">
+            <img src="chef 4.jpeg" alt="Chef John Lee">
+            <div class="chef-content">
+                <div class="chef-name">John Lee</div>
+                <div class="chef-role">Beverage Specialist</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
